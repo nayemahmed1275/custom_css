@@ -54,6 +54,7 @@ h1 span{
         background-color: transparent;
         box-shadow: 5px 5px 100px;
         border-radius: 10px;
+        outline: none;
 }
 ::placeholder{
           color:rgb(255, 255, 255);
@@ -80,6 +81,7 @@ h1 span{
         box-shadow: 5px 5px 100px;
         margin-left: 10px;
         border-radius: 10px;
+        outline: none;
 }
 
 
@@ -102,6 +104,7 @@ h1 span{
     box-shadow: 5px 5px 100px;
     border-bottom: none;
     border-radius: 10px;
+    outline: none;
 }
 
 #login{
