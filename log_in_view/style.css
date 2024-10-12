@@ -1,0 +1,127 @@
+*{
+     box-sizing: border-box;
+     margin: 0px;
+     padding: 0px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+     height: 100vh;
+     background-image: linear-gradient(rgb(29, 8, 97),rgb(0, 255, 115));
+}
+
+.container{
+          
+          width: 80vh;
+          margin:200px auto;
+          max-height:80vh ;
+          border: 1px solid transparent;
+          box-shadow:3px 5px 100px ;
+          border-radius: 10px;
+}
+
+.container h1{
+            
+          text-align: center;
+          margin: 0px;
+          padding: 10px;
+          font-size: 55px;
+          color: beige;
+          background: transparent;   
+          font-family: 'Courier New', Courier, monospace;  
+}
+
+h1 span{
+       color:mediumorchid;
+}
+
+#name{
+          margin: 10px;
+          display: flex;
+          justify-content: space-between;
+          padding: 10px 0px;
+}
+
+.user{
+        width: 100%;
+        padding: 20px;
+        border: 1px solid rgb(0, 0, 0);
+        border-left:none ;
+        border-top: none;
+        border-right: none;
+        border-bottom: none;
+        margin: 0px 10px;
+        background-color: transparent;
+        box-shadow: 5px 5px 100px;
+        border-radius: 10px;
+}
+::placeholder{
+          color:rgb(255, 255, 255);
+          font-weight: 400;
+         font-size: 18px;
+         font-family: 'Courier New', Courier, monospace;
+}
+
+#email{
+    margin: 10px;
+    display: flex;
+    padding: 10px 0px;
+}
+
+#email input{
+       width: 96%;
+       padding: 20px;
+       background-color: transparent;
+       border: 1px solid rgb(0, 0, 0);
+       border-bottom: none;
+       border-left:none ;
+        border-top: none;
+        border-right: none;
+        box-shadow: 5px 5px 100px;
+        margin-left: 10px;
+        border-radius: 10px;
+}
+
+
+#password{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+#password input{
+    width: 100%;
+    padding: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    border-left:none ;
+    border-top: none;
+    border-right: none;
+    margin: 0px 10px;
+    background-color: transparent;
+    box-shadow: 5px 5px 100px;
+    border-bottom: none;
+    border-radius: 10px;
+}
+
+#login{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+#login a{
+    width: 100%;
+    padding: 20px;
+    margin: 0px 10px;
+    background-color: transparent;  
+    text-decoration: none;
+    color: rgb(163, 43, 193);
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#login a span{
+         font-size: 46px;
+}
